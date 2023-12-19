@@ -1,0 +1,88 @@
+body{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:rgb(140, 151, 148) ;
+}
+
+
+section{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-size: 25px;
+    color: white;
+}
+
+
+section table{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgb(49, 43, 43);
+}
+
+section table tr{
+    border: 2px solid white;
+}
+
+
+section table tr td{
+    padding: 10px;
+}
+
+section table input{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+   
+}
+
+section table tr td svg{
+    margin-left: 10px;
+}
+
+.fa-edit{
+    color: green;
+}
+
+.fa-trash{
+    color: red;
+}
+
+
+button{
+    border: none;
+    padding: 10px;
+    background: #c00;
+    color: #fff;
+    font-family: 'vazir';
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+.active{
+    visibility: visible;
+    opacity: 1; 
+}
+
+button svg{
+    color: #fff !important;
+}

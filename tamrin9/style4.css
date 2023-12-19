@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    direction: rtl;
+}
+
+
+.wrapper {
+    width: 50%;
+    position: relative;
+
+}
+
+.container {
+    background: white;
+    border-radius: 8px;
+    padding: 50px 30px 80px 30px;
+    box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+}
+
+
+textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #0e101a;
+    font-size: 20px;
+}
+
+
+.count {
+    position: absolute;
+    bottom: -90px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    right: 50%;
+    transform: translateX(50%);
+    background: #4f0961;
+}
+
+.count h5,p{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
